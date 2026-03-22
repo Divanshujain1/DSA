@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "C++ Compile and Run",
+      "type": "shell",
+      "command": "cmd",
+      "args": [
+        "/c",
+        "cd ${fileDirname} && g++ ${file} -o ${fileBasenameNoExtension}.exe && ${fileBasenameNoExtension}.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    }
+  ]
+}
