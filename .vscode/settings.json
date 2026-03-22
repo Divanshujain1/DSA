@@ -1,0 +1,11 @@
+{
+  "editor.suggest.enabled": false,
+  "editor.quickSuggestions": false,
+  "editor.inlineSuggest.enabled": false,
+  "editor.parameterHints.enabled": false,
+  "extensions.ignoreRecommendations": true,
+  "[cpp]": {
+    "editor.suggest.enabled": false,
+    "editor.quickSuggestions": false
+  }
+}
